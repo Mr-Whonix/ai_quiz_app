@@ -11,7 +11,7 @@ numUniqueKey = "number of questions key"
 
 while numQuestions <= 0:
    numQuestions = int(sl.number_input("Enter then number of questions:", min_value= 1, step = 1, key = numUniqueKey))
-   if numQuestions >= 0:
+   if numQuestions > 0:
       break
    
 start_quiz_key = "start_quiz_key"
